@@ -1,0 +1,13 @@
+
+#ifndef CONVERTER_H
+#define CONVERTER_H
+
+int convert_number(
+    const char *input,
+    int source_base,
+    int target_base,
+    char *output
+);
+
+#endif
+
